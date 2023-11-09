@@ -408,6 +408,16 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 0;
   }
 }
+.turning_focus_img{
+  padding-left: 90px;
+  padding-right: 90px;
+}
+@media (max-width: 992px) {
+  .turning_focus_img {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
