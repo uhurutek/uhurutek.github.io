@@ -398,7 +398,16 @@ h1, h2, h3, h4, h5, h6 {
 #hero .hero-img img {
   width: 70%;
 }
-
+.technology_focus_img{
+  padding-left: 70px;
+  padding-right: 70px;
+}
+@media (max-width: 992px) {
+  .technology_focus_img {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -415,15 +424,16 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Default background color for next and prev */
 .carouselColor {
-  /* padding: 5px; */
   padding: 8px 8px 3px 8px;
   background-color: #9F4923 !important;
   border-radius: 50%;
 }
 
-/* Hover effect for next and prev */
+.baseColor {
+  color: #9F4923 !important;
+}
+
 .carouselColor:hover {
   background-color: #D76227 !important;
 }
