@@ -415,6 +415,19 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* Default background color for next and prev */
+.carouselColor {
+  /* padding: 5px; */
+  padding: 8px 8px 3px 8px;
+  background-color: #9F4923 !important;
+  border-radius: 50%;
+}
+
+/* Hover effect for next and prev */
+.carouselColor:hover {
+  background-color: #D76227 !important;
+}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
