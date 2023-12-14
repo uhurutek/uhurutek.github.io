@@ -3,39 +3,24 @@
   // Inject the CSS
   const style = document.createElement('style');
   style.innerHTML = `
-  .w-16 {
+  .bot-w-16 {
     width: 4rem; 
   }
-  
-  .h-16 {
+  .bot-h-16 {
     height: 4rem; 
   }
-  
-  .bg-gray-800 {
-    background-color: #9f4923; 
-  }
-  
-  .rounded-full {
+  .bot-rounded-full {
     border-radius: 9999px; 
   }
-  
-  .flex {
-    display: flex; 
-  }
-  
-  .items-center {
-    align-items: center; 
-  }
-  
-  .justify-center {
+  .bot-justify-center {
     justify-content: center;
   }
   
-  .cursor-pointer {
+  .bot-cursor-pointer {
     cursor: pointer; 
   }
   
-  .text-3xl {
+  .bot-text-3xl {
     font-size: 1.875rem;
   }  
   #chat-widget-container {
@@ -53,267 +38,156 @@
   @media (max-width: 768px) {
     #chat-popup {
       position: fixed;
-      top: 0;
+      top: 10;
       right: 0;
       bottom: 0;
       left: 0;
       width: 100%;
-      height: 100%;
-      max-height: 100%;
+      height: 90%;
+      max-height: 90%;
       border-radius: 0;
     }
   }
-  .w-10 {
+  .bot-w-10 {
     width: 2.5rem; 
   }
   
-  .h-10 {
+  .bot-h-10 {
     height: 2.5rem; 
-  }
-  
-  .text-white {
-    color: #ffffff; 
-  }
-  
-  .absolute {
+  }  
+  .bot-absolute {
     position: absolute; 
   }
-  
-  .bottom-20 {
-    bottom: 5rem; 
-  }
-  
-  .right-0 {
+  .bot-right-0 {
     right: 0; 
   }
   
-  .w-96 {
+  .bot-w-96 {
     width: 24rem; 
   }
-  
-  .bg-white {
-    background-color: #ffffff; 
-  }
-  .rounded-md {
-    border-radius: 0.375rem;
-  }
-  .shadow-md {
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
-  }
-  .flex {
-    display: flex;
-  }
-  .flex-col {
+  .bot-flex-col {
     flex-direction: column;
   }
-  .transition-all {
+  .bot-transition-all {
     transition-property: all; 
   }
-  .text-sm {
+  .bot-text-sm {
     font-size: 0.875rem; 
   }
-  .absolute {
-    position: absolute; 
-  }
-  .bottom-20 {
+  .bot-bottom-20 {
     bottom: 5rem;
   }
-  .right-0 {
-    right: 0; 
-  }
-  .w-96 {
-    width: 24rem;
-  }
-  .bg-white {
+  .bot-bg-white {
     background-color: #ffffff; 
   }
-  .rounded-md {
-    border-radius: 0.375rem; 
-  }
-  .shadow-md {
+  .bot-shadow-md {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
   }
-  .flex {
-    display: flex; 
-  }
-  .flex-col {
+  .bot-flex-col {
     flex-direction: column; 
   }
-  .transition-all {
-    transition-property: all; 
-  }
-  .text-sm {
-    font-size: 0.875rem; 
-  }
-  .flex {
-    display: flex; 
-  }
-  .justify-between {
+  .bot-justify-between {
     justify-content: space-between; 
   }
-  .items-center {
+  .bot-items-center {
     align-items: center; 
   }
-  .p-4 {
+  .bot-p-4 {
     padding: 1rem; 
   }
-  .bg-gray-800 {
-    background-color: #9f4923; 
-  }
-  .text-white {
-    color: #ffffff; 
-  }
-  .rounded-t-md {
+  .bot-rounded-t-md {
     border-top-left-radius: 0.375rem; 
     border-top-right-radius: 0.375rem;
   }
-  .bg-transparent {
+  .bot-bg-transparent {
     background-color: transparent; 
   }
-  .border-none {
+  .bot-border-none {
     border: none; 
   }
-  .text-white {
-    color: #ffffff;
-  }
-  .cursor-pointer {
-    cursor: pointer;
-  }
-  .flex-1 {
+  .bot-flex-1 {
     flex: 1; 
   }
-  .border {
+  .bot-border {
     border-width: 1px; 
   }
-  .border-gray-300 {
+  .bot-border-gray-300 {
     border-color: #9f4923; 
   }
-  .rounded-md {
-    border-radius: 0.375rem; 
-  }
-  .px-4 {
-    padding-left: 1rem; 
-    padding-right: 1rem;
-  }
-  .py-2 {
-    padding-top: 0.5rem; 
-    padding-bottom: 0.5rem;
-  }
-  .outline-none {
+  .bot-outline-none {
     outline: none; 
   }
-  .w-3/4 {
-    width: 75%; 
-  }
-  .overflow-y-auto {
+  .bot-overflow-y-auto {
     overflow-y: auto; 
   }
-  .border-t {
+  .bot-border-t {
     border-top-width: 1px; 
     border-color: #9f4923; 
   }
-  .border-gray-200 {
+  .bot-border-gray-200 {
     border-color: #9f4923; 
   }
-  .hidden {
+  .bot-hidden {
     visibility: hidden;
   }
-  .space-x-4 {
+  .bot-space-x-4 {
     margin-right: 1rem; 
   }
-  
-  .items-center {
-    align-items: center; 
-  }
-  .text-indigo-600 {
-    color: #7f9cf5; 
-  }
-  
-  .flex {
-    display: flex; 
-  }
-  
-  .text-center {
+  .bot-text-center {
     text-align: center; 
   }
   
-  .text-xs {
+  .bot-text-xs {
     font-size: 0.75rem; 
   }
   
-  .pt-4 {
+  .bot-pt-4 {
     padding-top: 1rem; 
   }
-  
-  .bg-gray-800 {
-    background-color: #9f4923; 
-  }
-  
-  .text-white {
-    color: #ffffff; 
-  }
-  
-  .rounded-md {
+  .bot-rounded-md {
     border-radius: 0.375rem; 
   }
-  
-  .px-4 {
-    padding-left: 1rem; 
-    padding-right: 1rem;
-  }
-  
-  .py-2 {
+  .bot-py-2 {
     padding-top: 0.5rem; 
     padding-bottom: 0.5rem;
   }
   
-  .cursor-pointer {
-    cursor: pointer; 
+  .bot-bg-gray-200 {
+    background-color: #d76227; 
   }
   
-  .bg-gray-200 {
-    background-color: #9f4923; 
-  }
-  
-  .text-black {
+  .bot-text-black {
     color: #000000; 
   }
   
-  .rounded-lg {
+  .bot-rounded-lg {
     border-radius: 0.5rem; 
   }
   
-  .py-2 {
-    padding-top: 0.5rem; 
-    padding-bottom: 0.5rem;
-  }
-  
-  .px-4 {
+  .bot-px-4 {
     padding-left: 1rem; 
     padding-right: 1rem;
   }
-  
-  .max-w-[70%] {
+  .bot-px-2 {
+    padding-left: 0.5rem; 
+    padding-right: 0.5rem;
+  }
+  .bot-max-w-[70%] {
     max-width: 70%; 
   }
-  
-  .bg-gray-800 {
+  .bot-bg-gray-800 {
     background-color: #9f4923; 
   }
-  
-  .text-white {
+  .bot-text-white {
     color: #ffffff; 
   }
-  
-  .flex {
+  .bot-flex {
     display: flex; 
   }
-  
-  .justify-end {
+  .bot-justify-end {
     justify-content: flex-end; 
   }
-  
-  .mb-3 {
+  .bot-mb-3 {
     margin-bottom: 0.75rem; 
   }
   .bot-card {
@@ -323,13 +197,11 @@
     border-radius: 8px;
     text-align: center;
   }
-
   .bot-card img {
       width: 100%;
       height: auto;
       margin-bottom: 15px;
   }
-
   .bot-actions a {
       display: block;
       margin-bottom: 10px;
@@ -342,26 +214,21 @@
     margin: auto;
     overflow: hidden;
   }
-
   .bot-carousel-container {
     display: flex;
     transition: transform 0.5s ease;
   }
-
   .bot-slide {
     min-width: 100%;
     display: none;
   }
-
   .bot-slide img {
     width: 100%;
     height: auto;
   }
-
   .bot-slide:first-child {
     display: block;
   }
-
   .bot-prev,
   .bot-next {
     position: absolute;
@@ -374,7 +241,6 @@
     padding: 10px;
     z-index: 1;
   }
-
   .bot-prev {
     left: 0;
   }
@@ -397,33 +263,31 @@
 
   chatWidgetContainer.innerHTML = `
     <!-- Chat Bubble -->
-    <div id="chat-bubble" class="w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center cursor-pointer text-3xl">
-      <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <div id="chat-bubble" class="bot-w-16 bot-h-16 bot-bg-gray-800 bot-rounded-full bot-flex bot-items-center bot-justify-center bot-cursor-pointer bot-text-3xl">
+      <svg xmlns="http://www.w3.org/2000/svg" class="bot-w-10 bot-h-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
         <path stroke-linecap="round" stroke-linejoin="round" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
       </svg>
     </div>
 
     <!-- Chat Popup -->
-    <div id="chat-popup" class="hidden absolute bottom-20 right-0 w-96 bg-white rounded-md shadow-md flex flex-col transition-all text-sm">
-      <div id="chat-header" class="flex justify-between items-center p-4 bg-gray-800 text-white rounded-t-md">
+    <div id="chat-popup" class="bot-hidden bot-absolute bot-bottom-20 bot-right-0 bot-w-96 bot-bg-white bot-rounded-md bot-shadow-md bot-flex bot-flex-col bot-transition-all bot-text-sm">
+      <div id="chat-header" class="bot-flex bot-justify-between bot-items-center bot-p-4 bot-bg-gray-200 bot-text-white bot-rounded-t-md">
         <h3 class="m-0 text-lg">UhuruTek Bot</h3>
-        <button id="close-popup" class="bg-transparent border-none text-white cursor-pointer">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-          </svg>
+        <button id="close-popup" class="bot-bg-transparent bot-border-none bot-text-white cursor-pointer">
+          <i class="far fa-window-close"></i>
         </button>
       </div>
-      <div id="chat-messages" class="flex-1 p-4 overflow-y-auto"></div>
-      <div id="chat-input-container" class="p-4 border-t border-gray-200">
-        <div class="flex space-x-4 items-center">
-          <input type="text" id="chat-input" style="border: 1px solid #9f4923;" class="flex-1 rounded-md px-4 py-2 outline-none w-3/4" placeholder="Type your message...">
-          <button id="chat-submit" style="margin-left: 3px; border: 1px solid #9f4923;" class="rounded px-4 py-2 cursor-pointer">
+      <div id="chat-messages" class="bot-flex-1 bot-p-4 bot-overflow-y-auto"></div>
+      <div id="chat-input-container" class="bot-p-4 bot-border-t bot-border-gray-200">
+        <div class="bot-flex bot-space-x-4 bot-items-center">
+          <input type="text" id="chat-input" style="border: 1px solid #9f4923;" class="bot-flex-1 bot-rounded-md bot-px-4 bot-py-2 bot-outline-none w-3/4" placeholder="Type your message...">
+          <button id="chat-submit" style="margin-left: 3px; bot-border: 1px solid #9f4923;" class="rounded bot-px-4 bot-py-2 cursor-pointer">
           <i class="fas fa-paper-plane" style="color: #9f4923;"></i>
         </button>
         
         </div>
-        <div class="flex text-center text-xs pt-4">
-          <span class="flex-1">Powered by <strong><a href="https://uhurutek.com" target="_blank" ><img src="https://uhurutek.com/assets/img/uhurutek_logo.svg" width="90" alt="Uhurutek Logo">
+        <div class="bot-flex bot-text-center bot-text-xs bot-pt-4">
+          <span class="bot-flex-1">Powered by <strong><a href="https://uhurutek.com" target="_blank" ><img src="https://uhurutek.com/assets/img/uhurutek_logo.svg" width="90" alt="Uhurutek Logo">
           </a></strong></span>
         </div>
       </div>
@@ -461,23 +325,23 @@
   closePopup.addEventListener('click', function () {
     togglePopup();
   });
-
   function togglePopup() {
-    chatPopup.classList.toggle('hidden');
-    if (!chatPopup.classList.contains('hidden')) {
+    const chatPopup = document.getElementById('chat-popup');
+    chatPopup.classList.toggle('bot-hidden');
+    if (!chatPopup.classList.contains('bot-hidden')) {
       document.getElementById('chat-input').focus();
     }
   }
 
-  /* without modal click close modal */
+  /* click outside close popup */
 
   // document.addEventListener('click', function (event) {
   //   const chatPopup = document.getElementById('chat-popup');
   //   const chatBubble = document.getElementById('chat-bubble');
 
   //   if (!chatPopup.contains(event.target) && !chatBubble.contains(event.target)) {
-  //     if (!chatPopup.classList.contains('hidden')) {
-  //       chatPopup.classList.add('hidden');
+  //     if (!chatPopup.classList.contains('bot-hidden')) {
+  //       chatPopup.classList.add('bot-hidden');
   //     }
   //   }
   // });
@@ -485,9 +349,9 @@
   function onUserRequest(message) {
     // Display user message
     const messageElement = document.createElement('div');
-    messageElement.className = 'flex justify-end mb-3';
+    messageElement.className = 'bot-flex bot-justify-end bot-mb-3';
     messageElement.innerHTML = `
-      <div class="bg-gray-800 text-white rounded-lg py-2 px-4 max-w-[70%]">
+      <div class="bot-bg-gray-800 bot-text-white bot-rounded-lg bot-py-2 bot-px-4 bot-max-w-[70%]">
         ${message}
       </div>
     `;
@@ -544,10 +408,10 @@
     message = message.replace(/(?:\r\n|\r|\n)/g, '<br>');
     const chatMessages = document.getElementById('chat-messages');
     const replyElement = document.createElement('div');
-    replyElement.className = 'flex mb-3';
+    replyElement.className = 'bot-flex bot-mb-3';
     replyElement.innerHTML = `
-      <div style="border: 1px solid #9f4923;" class=" text-black rounded-lg py-2 px-4 max-w-[70%]">
-       <p> ${message}</p>
+      <div style="border: 1px solid #9f4923;" class=" bot-text-black bot-rounded-lg bot-px-4 bot-py-2 bot-max-w-[70%]">
+       ${message}
       </div>
     `;
     chatMessages.appendChild(replyElement);
@@ -557,9 +421,9 @@
   function replyFile(file) {
     const chatMessages = document.getElementById('chat-messages');
     const replyElement = document.createElement('div');
-    replyElement.className = 'flex mb-3';
+    replyElement.className = 'bot-flex bot-mb-3';
     replyElement.innerHTML = `
-      <div style="border: 1px solid #9f4923;" class=" text-black rounded-lg py-2 px-4 max-w-[70%]">
+      <div style="border: 1px solid #9f4923;" class=" bot-text-black bot-rounded-lg bot-py-2 bot-px-4 bot-max-w-[70%]"> 
         <a href="${file.file}" target="_blank">${file.title}</a>
       </div>
     `;
@@ -570,9 +434,9 @@
   function replyVideo(video) {
     const chatMessages = document.getElementById('chat-messages');
     const replyElement = document.createElement('div');
-    replyElement.className = 'flex mb-3';
+    replyElement.className = 'bot-flex bot-mb-3';
     replyElement.innerHTML = `
-      <div style="border: 1px solid #9f4923;" class=" text-black rounded-lg py-2 px-4 max-w-[70%]">
+      <div style="border: 1px solid #9f4923;" class=" bot-text-black bot-rounded-lg bot-py-2 bot-px-2 bot-max-w-[70%]"> 
         <video width="320" height="240" controls>
           <source src="${video.video}" type="video/mp4">
           Your browser does not support the video tag.
@@ -585,7 +449,7 @@
   function replyCard(cards) {
     const chatMessages = document.getElementById('chat-messages');
     const replyElement = document.createElement('div');
-    replyElement.className = 'flex mb-3';
+    replyElement.className = 'bot-flex bot-mb-3';
 
     const actions = cards.actions.map(response => `<a href="${response.url}" target="_blank">${response.title}</a>`).join('');
 
@@ -606,9 +470,9 @@
   function replyAudio(audio) {
     const chatMessages = document.getElementById('chat-messages');
     const replyElement = document.createElement('div');
-    replyElement.className = 'flex mb-3';
+    replyElement.className = 'bot-flex bot-mb-3';
     replyElement.innerHTML = `
-      <div style="border: 1px solid #9f4923;" class=" text-black rounded-lg py-2 px-4 max-w-[70%]">
+      <div style="border: 1px solid #9f4923;" class=" bot-text-black bot-rounded-lg bot-py-2 bot-px-2 bot-max-w-[70%]"> 
         <audio controls>
           <source src="${audio.audio}" type="audio/mpeg">
           Your browser does not support the audio element.
@@ -621,7 +485,7 @@
   function replayCarousel(carousels) {
     const chatMessages = document.getElementById('chat-messages');
     const replyElement = document.createElement('div');
-    replyElement.className = 'flex mb-3';
+    replyElement.className = 'bot-flex bot-mb-3';
     // Create a variable to keep track of the current card index
     let currentCardIndex = 0;
     function showCard(index) {
@@ -665,6 +529,5 @@
     chatMessages.appendChild(replyElement);
     chatMessages.scrollTop = chatMessages.scrollHeight;
   }
-
 
 })();
