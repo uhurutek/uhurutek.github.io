@@ -1704,3 +1704,20 @@ section {
   font-size: 13px;
   color: #602e13;
 }
+
+#chat-header {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+#replay p {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+#chat-header h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
