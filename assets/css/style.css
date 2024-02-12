@@ -1536,6 +1536,9 @@ section {
 .portfolio-details .portfolio-description {
   padding-top: 50px;
 }
+.custom-card {
+  width: 250px;
+}
 
 .portfolio-details .portfolio-description h2 {
   width: 50%;
@@ -1703,4 +1706,35 @@ section {
   text-align: center;
   font-size: 13px;
   color: #602e13;
+}
+
+.gallery-grid-container {
+  columns: 15 100px;
+  column-gap: 1.5rem;
+  width: 100%;
+  margin: 0 auto;
+  .gallery-div {
+    width: 150px;
+    margin: 0 1.5rem 1.5rem 0;
+    display: inline-block;
+    width: 100%;
+    /* border: solid 2px black; */
+    padding: 3px;
+    box-shadow: 0.25px 0.25px 0.25px 0.5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    transition: all 0.25s ease-in-out;
+
+    .gallery-img {
+      width: 100%;
+      /* filter: grayscale(100%); */
+      border-radius: 5px;
+      transition: all 0.25s ease-in-out;
+    }
+  }
+}
+
+#chat-header h5 {
+  margin-top: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }

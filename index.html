@@ -89,8 +89,14 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero">
+  <section style="padding-bottom: 0 !important;" id="hero">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators ">
+        <li style="background-color: #602e13;" data-target="#carouselExampleControls" data-slide-to="0" class="active">
+        </li>
+        <li style="background-color: #602e13;" data-target="#carouselExampleControls" data-slide-to="1"></li>
+        <li style="background-color: #602e13;" data-target="#carouselExampleControls" data-slide-to="2"></li>
+      </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="container">
@@ -99,11 +105,11 @@
                 data-aos="fade-up">
                 <div>
                   <h1>Technology Redefined with Freedom and Innovation</h1>
-                  <h2>Unlocking New Horizons with Technological Freedom</h2>
+                  <h2 class="mb-5">Unlocking New Horizons with Technological Freedom</h2>
                 </div>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
-                <img src="assets/img/Slogan_1.png" class="img-fluid" alt="">
+                <img src="assets/img/Slogan_1.png" class="img-fluid mb-5" alt="">
               </div>
             </div>
           </div>
@@ -116,12 +122,13 @@
                 data-aos="fade-up">
                 <div>
                   <h1>Personalized software solutions</h1>
-                  <h2>We empower businesses with software solutions and services that align objectives to drive success
+                  <h2 class="mb-5">We empower businesses with software solutions and services that align objectives to
+                    drive success
                   </h2>
                 </div>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
-                <img src="assets/img/Slogan_2.png" class="img-fluid" alt="">
+                <img src="assets/img/Slogan_2.png" class="img-fluid  mb-5" alt="">
               </div>
             </div>
           </div>
@@ -133,17 +140,17 @@
                 data-aos="fade-up">
                 <div>
                   <h1>Invest in our R&D to stay ahead of industry trends</h1>
-                  <h2>Lead the way of innovation by investing in our research and development</h2>
+                  <h2 class="mb-5">Lead the way of innovation by investing in our research and development</h2>
                 </div>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
-                <img src="assets/img/Slogan_3.png" class="img-fluid" alt="">
+                <img src="assets/img/Slogan_3.png" class="img-fluid  mb-5" alt="">
               </div>
             </div>
           </div>
         </div>
       </div>
-      <a class="carousel-control-prev " href="#carouselExampleControls" role="button" data-slide="prev">
+      <!-- <a class="carousel-control-prev " href="#carouselExampleControls" role="button" data-slide="prev">
         <div class="carouselColor">
           <span class="carousel-control-prev-icon " aria-hidden="true"></span>
         </div>
@@ -155,7 +162,7 @@
         </div>
         <span class="sr-only">Next</span>
       </a>
-    </div>
+    </div> -->
   </section>
   <!-- End Hero -->
 
@@ -470,44 +477,200 @@
         </div>
 
         <div class="row">
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in">
-            <div class="icon-box icon-box-pink">
-              <div class="icon"><i class="bx bx-code"></i></div>
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5" data-aos="zoom-in">
+            <div class="icon-box icon-box-pink custom-card">
+              <!-- <div class="icon"><i class="bx bx-code"></i></div> -->
+              <img width="50px" class="mb-3" src="./assets/img/services/service-software.png" alt="" />
               <h4 class="title"><a>Software Development</a></h4>
-              <p class="description">Crafting personalized solutions to optimize your business operations.</p>
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in"
-            data-aos-delay="100">
-            <div class="icon-box icon-box-cyan">
-              <div class="icon"><i class="bx bx-globe"></i></div>
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box icon-box-cyan custom-card">
+              <img width="50px" class="mb-3" src="./assets/img/services/service-web.png" alt="" />
               <h4 class="title"><a>Web Development</a></h4>
-              <p class="description">Building dynamic and user-friendly websites to boost your online presence.</p>
+
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in"
-            data-aos-delay="200">
-            <div class="icon-box icon-box-green">
-              <div class="icon"><i class="bx bx-mobile"></i></div>
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box icon-box-green custom-card">
+              <img width="50px" class="mb-3" src="./assets/img/services/service-mobile.png" alt="" />
               <h4 class="title"><a>Mobile App Development</a></h4>
-              <p class="description">Creating feature-rich apps for iOS and Android platforms.</p>
+
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in"
-            data-aos-delay="300">
-            <div class="icon-box icon-box-blue">
-              <div class="icon"><i class="bx bx-brain"></i></div>
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box icon-box-blue custom-card">
+              <img width="50px" class="mb-3" src="./assets/img/services/service-devops.png" alt="" />
+              <h4 class="title"><a>DevOps</a></h4>
+
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box icon-box-blue custom-card">
+              <img width="50px" class="mb-3" src="./assets/img/services/service-ai.png" alt="" />
               <h4 class="title"><a>AI/ML Solutions</a></h4>
-              <p class="description">Harnessing the power of artificial intelligence and machine learning for
-                data-driven insights and automation.</p>
+
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box icon-box-blue custom-card">
+              <img width="50px" class="mb-3" src="./assets/img/services/service-analysis.png" alt="" />
+              <h4 class="title"><a>Data Analytics</a></h4>
+
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box icon-box-blue custom-card">
+              <img width="50px" class="mb-3" src="./assets/img/services/service-db-management.png" alt="" />
+              <h4 class="title"><a>Data Management</a></h4>
+
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box icon-box-blue custom-card">
+              <img width="50px" class="mb-3" src="./assets/img/services/service-techical.png" alt="" />
+              <h4 class="title"><a>IT consultation</a></h4>
+
             </div>
           </div>
 
         </div>
 
+      </div>
+    </section>
+
+    <section id="technology" class="clients">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Technology</h2>
+          <p>Partnering with you to create impactful technology that makes a difference.
+            Bridging the gap between imagination and innovation</p>
+        </div>
+
+        <div class="gallery-grid-container gallery-div">
+          <div class="gallery-div">
+            <img class='grid-item grid-item-8 gallery-img' src='./assets/img/technology/Tech-java.png' alt=''>
+          </div>
+
+
+          <div class="gallery-div">
+            <img class='grid-item grid-item-2 gallery-img' src='./assets/img/technology/Tech-Docker-Symbol.png' alt=''>
+          </div>
+
+          <div class="gallery-div">
+            <img class='grid-item grid-item-26 gallery-img' src='./assets/img/technology/tech-postgresql.png' alt=''>
+          </div>
+          <div class="gallery-div">
+            <img class='grid-item grid-item-4 gallery-img' src='./assets/img/technology/tech-javascript.png' alt=''>
+          </div>
+          <div class="gallery-div">
+            <img class='grid-item grid-item-1 gallery-img'
+              src='./assets/img/technology/Tech-Bitbucket-Logo-blue.svg.png' alt=''>
+          </div>
+
+          <div class="gallery-div">
+            <img class='grid-item grid-item-5 gallery-img' src='./assets/img/technology/Tech-ansible.png' alt=''>
+          </div>
+          <div class="gallery-div">
+            <img class='grid-item grid-item-34 gallery-img' src='./assets/img/technology/tech-spring.png' alt=''>
+          </div>
+          <div class="gallery-div">
+            <img class='grid-item grid-item-6 gallery-img'
+              src='./assets/img/technology/Tech-clickup-removebg-preview.png' alt=''>
+          </div>
+          <div class="gallery-div">
+            <img class='grid-item grid-item-7 gallery-img' src='./assets/img/technology/Tech-grafana-logo.png' alt=''>
+          </div>
+
+
+          <div class="gallery-div">
+            <img class='grid-item grid-item-3 gallery-img' src='./assets/img/technology/Tech-JUnit_5_Banner.png' alt=''>
+          </div>
+          <div class="gallery-div">
+            <img class='grid-item grid-item-23 gallery-img'
+              src='./assets/img/technology/tech-maven-removebg-preview.png' alt=''>
+          </div>
+          <div class="gallery-div">
+            <img class='grid-item grid-item-9 gallery-img' src='./assets/img/technology/tech-prometheus.png' alt=''>
+          </div>
+          <div class="gallery-div">
+            <img class='grid-item grid-item-10 gallery-img' src='./assets/img/technology/tech-aws.png' alt=''>
+          </div>
+
+          <div class="gallery-div">
+            <img class='grid-item grid-item-11 gallery-img' src='./assets/img/technology/tech-GCP.png' alt=''>
+          </div>
+
+          <div class="gallery-div">
+            <img class='grid-item grid-item-12 gallery-img' src='./assets/img/technology/tech-Nagios_logo.svg.png'
+              alt=''>
+          </div>
+          <div class="gallery-div">
+            <img class='grid-item grid-item-29 gallery-img' src='./assets/img/technology/tech-python.png' alt=''>
+          </div>
+          <div class="gallery-div">
+            <img class='grid-item grid-item-13 gallery-img' src='./assets/img/technology/tech-gihub actions.png' alt=''>
+          </div>
+          <div class="gallery-div">
+            <img class='grid-item grid-item-14 gallery-img' src='./assets/img/technology/tech-git.png' alt=''>
+          </div>
+          <div class="gallery-div">
+            <img class='grid-item grid-item-15 gallery-img' src='./assets/img/technology/tech-GitHub-logo.png' alt=''>
+          </div>
+          <div class="gallery-div">
+            <img class='grid-item grid-item-16 gallery-img' src='./assets/img/technology/tech-gitlab-logo.png' alt=''>
+          </div>
+          <div class="gallery-div">
+            <img class='grid-item grid-item-17 gallery-img'
+              src='./assets/img/technology/tech-gradle_logo-removebg-preview (1).png' alt=''>
+          </div>
+          <div class="gallery-div">
+            <img class='grid-item grid-item-18 gallery-img'
+              src='./assets/img/technology/tech-jasmine-logo-vector-removebg-preview.png' alt=''>
+          </div>
+          <div class="gallery-div">
+            <img class='grid-item grid-item-19 gallery-img' src='./assets/img/technology/tech-jenkins.png' alt=''>
+          </div>
+          <div class="gallery-div">
+            <img class='grid-item grid-item-20 gallery-img' src='./assets/img/technology/Tech-Jira_Logo.svg.png' alt=''>
+          </div>
+          <div class="gallery-div">
+            <img class='grid-item grid-item-21 gallery-img' src='./assets/img/technology/tech-kubernets.png' alt=''>
+          </div>
+          <div class="gallery-div">
+            <img class='grid-item grid-item-22 gallery-img' src='./assets/img/technology/tech-linux-logo-0.png' alt=''>
+          </div>
+
+          <div class="gallery-div">
+            <img class='grid-item grid-item-24 gallery-img' src='./assets/img/technology/tech-nginx.png' alt=''>
+          </div>
+          <div class="gallery-div">
+            <img class='grid-item grid-item-25 gallery-img' src='./assets/img/technology/tech-pm2.png' alt=''>
+          </div>
+
+
+          <div class="gallery-div">
+            <img class='grid-item grid-item-29 gallery-img' src='./assets/img/technology/tech-pytest.png' alt=''>
+          </div>
+
+          <div class="gallery-div">
+            <img class='grid-item grid-item-31 gallery-img' src='./assets/img/technology/tech-react.png' alt=''>
+          </div>
+          <div class="gallery-div">
+            <img class='grid-item grid-item-32 gallery-img' src='./assets/img/technology/tech-selenium.png' alt=''>
+          </div>
+          <div class="gallery-div">
+            <img class='grid-item grid-item-33 gallery-img' src='./assets/img/technology/tech-slack.png' alt=''>
+          </div>
+
+          <div class="gallery-div">
+            <img class='grid-item grid-item-35 gallery-img' src='./assets/img/technology/tech-yarn.png' alt=''>
+          </div>
+        </div>
       </div>
     </section>
     <!-- End Services Section -->
@@ -759,8 +922,17 @@
     </div>
   </footer>
   <!-- End Footer -->
-
-  <a href="#" class="back-to-top"><i class="bx bxs-up-arrow-alt"></i></a>
+  <script src="https://uhurutek.com/uchat-widget/widget_node_openai.js"></script>
+  <script>
+    window.uChatWidget({
+      UHURUCHAT_ENDPOINT: "https://chatapi.uhurutek.com/node-api",
+      APP_NAME: "UhuruTek",
+      AVATAR: "./assets/img/uhurutek-white.png",
+      BASE_COLOR: "",
+      ASSISTANT_ID: "asst_xKEsWUoOGKWjUrv0NgzpJhC2"
+    });
+  </script>
+  <!-- <a href="#" class="back-to-top"><i class="bx bxs-up-arrow-alt"></i></a> -->
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
