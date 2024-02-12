@@ -1738,3 +1738,7 @@ section {
   padding-top: 6px;
   padding-bottom: 6px;
 }
+
+#replay p {
+  margin-bottom: 0 !important;
+}
