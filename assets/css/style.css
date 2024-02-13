@@ -1541,7 +1541,7 @@ section {
   padding-top: 50px;
 }
 .custom-card {
-  width: 250px;
+  width: 100%;
 }
 
 .portfolio-details .portfolio-description h2 {
