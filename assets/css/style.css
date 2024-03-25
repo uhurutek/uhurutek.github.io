@@ -521,6 +521,13 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
+.about .content h4 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #9f4923;
+  font-family: "Poppins", sans-serif;
+}
+
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -604,6 +611,14 @@ section {
   font-size: 32px;
   color: #9f4923;
   font-family: "Poppins", sans-serif;
+}
+
+.other_h3 {
+  font-weight: 400;
+  font-size: 32px;
+  color: #9f4923;
+  font-family: "Poppins", sans-serif;
+  text-align: center !important;
 }
 
 @-webkit-keyframes slide-down {
