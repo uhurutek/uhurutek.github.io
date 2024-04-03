@@ -487,7 +487,7 @@ section {
   font-weight: 400;
   margin-bottom: 20px;
   padding-bottom: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #9f4923;
 }
 
@@ -518,14 +518,14 @@ section {
   font-weight: 400;
   font-size: 32px;
   color: #9f4923;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .about .content h4 {
   font-weight: 400;
   font-size: 24px;
   color: #9f4923;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .about .content ul {
@@ -610,14 +610,14 @@ section {
   font-weight: 400;
   font-size: 32px;
   color: #9f4923;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .other_h3 {
   font-weight: 400;
   font-size: 32px;
   color: #9f4923;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
   text-align: center !important;
 }
 
@@ -740,7 +740,7 @@ section {
   color: #444444;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .portfolio #portfolio-flters li:hover,
@@ -1145,7 +1145,7 @@ section {
   font-size: 36px;
   color: #9f4923;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
   margin-bottom: 20px;
 }
 
